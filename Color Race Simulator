@@ -1,0 +1,172 @@
+	-- i hope you like, it is a little shit though oops
+	
+	local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+	local w = library:CreateWindow("Color Race Simulator")
+
+	local b = w:CreateFolder("Starter World")
+
+	b:Button("Color Race",function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-127.482697, 228.845322, 346.798431, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+
+	b:Button("Color Stairs",function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130.227448, 219.067001, 346.796844, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+
+	local b = w:CreateFolder("Candy World")
+
+	b:Button("Color Race",function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1177.20508, 58.5126266, 1567.76501, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+
+	b:Button("Color Stairs",function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130.228271, 375.066986, 1567.69299, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+	local b = w:CreateFolder("Frozen World")
+
+	b:Button("Color Race",function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1609.15784, 58.5127831, -748.43158, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+
+	b:Button("Color Stairs",function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130.228027, 531.065979, -748.530029, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+
+	local b = w:CreateFolder("Eggs")
+
+	b:Button("W1E1 (1)",function()
+	
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-229.038025, 59.6995087, 290.04538, -0.877245784, 0, -0.480041772, 0, 1, 0, 0.480041772, 0, -0.877245784)
+
+    wait(0.1)
+    
+	local args = {
+    [1] = "Common Egg",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+
+	b:Button("W1E2 (5)",function()
+	    
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-229.038025, 59.6995087, 290.04538, -0.877245784, 0, -0.480041772, 0, 1, 0, 0.480041772, 0, -0.877245784)
+
+    wait(0.1)
+	    
+		local args = {
+    [1] = "W1E2",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+
+	b:Button("W1E3 (10)",function()
+	    
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-216.860428, 59.6990395, 290.045013, -0.877245784, 0, -0.480041772, 0, 1, 0, 0.480041772, 0, -0.877245784)
+
+    wait(0.1)
+	    
+		local args = {
+    [1] = "W1E3",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+	
+	b:Button("W2E1 (15)",function()
+	
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-229.038361, 52.5691872, 1510.93982, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+
+    wait(0.1)
+    
+	local args = {
+    [1] = "W2E1",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+
+	b:Button("W2E2 (25)",function()
+	    
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-216.860489, 52.5691872, 1510.93884, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+
+    wait(0.1)
+	    
+		local args = {
+    [1] = "W2E2",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+
+	b:Button("W2E3 (40)",function()
+	    
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-204.268372, 52.5691872, 1510.93896, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+
+    wait(0.1)
+	    
+		local args = {
+    [1] = "W3E3",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+	
+	b:Button("W3E1 (60)",function()
+	
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-229.038361, 52.5691414, -805.28418, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+
+    wait(0.1)
+    
+	local args = {
+    [1] = "W3E1",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+
+	b:Button("W3E2 (100)",function()
+	    
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-216.860428, 52.5691795, -805.28418, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+
+    wait(0.1)
+	    
+		local args = {
+    [1] = "W3E2",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+
+	b:Button("W3E3 (150)",function()
+	    
+	    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-204.268433, 52.5691795, -805.284119, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+
+    wait(0.1)
+	    
+		local args = {
+    [1] = "W3E3",
+    [2] = "Buy1"
+	}
+
+	game:GetService("ReplicatedStorage").GameClient.Events.RemoteFunction.BuyEgg:InvokeServer(unpack(args))
+
+	end)
+	
