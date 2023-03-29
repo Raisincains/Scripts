@@ -1,0 +1,43 @@
+--took me like 2 minutes to make lol
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("Abyss World")
+
+local b = w:CreateFolder("Teleports")
+
+b:Button("Checkpoint 1",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.140358, 21251.5, -105.859566, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+b:Button("Checkpoint 2",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(40.7983551, 21010.5, -166.891037, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+b:Button("Checkpoint 3",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-298.291138, 20992, -412.291687, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+b:Button("Checkpoint 4",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39.2115479, 20777.2637, -595.06134, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+b:Button("Checkpoint 5",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-82, 20340.5, -786.16687, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+b:Button("Checkpoint 6",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-205.733307, 20037.8281, -185.300018, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+b:Button("Checkpoint 7",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-413.638885, 19794.2891, -498.604248, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+b:Button("Checkpoint 8",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(186.500031, 19418.5, -79, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+
+b:Button("Checkpoint 9",function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-411.593414, 19152.998, -552.935913, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
