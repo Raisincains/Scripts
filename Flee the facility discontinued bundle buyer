@@ -1,0 +1,47 @@
+--to choose the thingy just copy the code and replace the word number lol
+--credits to bedra45 on v3rm because i would have no idea this existed and could exploit it until him
+--bedra45: https://v3rmillion.net/member.php?action=profile&uid=1308967
+--script where i got some code from: https://raw.githubusercontent.com/bedra45/Random-games-xd/main/bedraFtfFinalGUI
+
+
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["anything you want lol"] = number
+
+
+--IncreaseBeastChance = 84341502
+--DecreaseBeastChance = 1008422266
+--DonationTier1 = 84669970
+--DonationTier2 = 84671101
+--DonationTier3 = 84671132
+--DonationTier4 = 84671197
+--DonationTier5 = 84671226
+--DonationTier6 = 84671249
+--CreditsTier1 = 106210863
+--CreditsTier2 = 106211027
+--CreditsTier3 = 106211059
+--CreditsTier4 = 106211152
+--CreditsTier5 = 106211170
+--CreditsTier6 = 106211287
+--LuckOTheIrishBundle = 166842694
+--AnniversaryClassicBundle = 307452494
+--DarkBonesBundle = 410810282
+--RedNutcrackerBundle = 437772898
+--2ndAnniversaryBundle = 592700787
+--GravePumpkinBundle = 841407877
+--ToySantaBundle = 944207779
+--SpookySweetsBundle = 1111393988
+--SantaChimneyBundle = 1132314724
+--PhantomLightBundle = 1217788858
+--SantaBootBundle = 1230545100
+--PartyBalloonsBundle = 1333174228
+--DoomthrustBundle = 1333174293
+--DevilishFlameBundle = 1333174360
+--DarkMansionBundle = 1333174451
+--IcethrustBundle = 1349950318
+--FestiveCandelabraBundle = 1349950691
+--JollyDrumsBundle = 1349950823
+--ToyGiftBundle = 1349951027
