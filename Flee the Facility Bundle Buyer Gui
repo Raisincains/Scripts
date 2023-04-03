@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Enjoy<3", 4483362458) -- Title, Image
 
 local Label = Tab:CreateLabel("Buy any bundle that has been discontinued with this")
 
@@ -178,6 +178,8 @@ local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "P
 })
 
 local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "This script will let you buy discontinued bundles (that cost robux). When buying said bundle it may say it cost 0 or 1 robux, that is just a glitch. Most bundles cost atleast 650. This script was made possible thanks to a man named bedra45 on v3rmillion. If you wish to find more scripts like this check out my github: github.com/raisincains/scripts"})
+
+local Paragraph = Tab:CreateParagraph({Title = "How to buy", Content = "To buy the bundles you will need to choose one and go to the shop and click buy. Do not click any crates/bundles after choosing your option!!! The consequences will be dire!!!!!"})
 
 Rayfield:Notify({
    Title = "Warning!",
