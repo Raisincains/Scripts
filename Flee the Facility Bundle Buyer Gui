@@ -1,0 +1,195 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Flee The Facility Bundle Buyer",
+   LoadingTitle = "Flee The Facility Bundle Buyer",
+   LoadingSubtitle = "by raisincains",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Sirius Hub",
+      Subtitle = "Key System",
+      Note = "Join the discord (discord.gg/sirius)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Hello"
+   }
+})
+
+local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+
+local Label = Tab:CreateLabel("Buy any bundle that has been discontinued with this")
+
+local Dropdown = Tab:CreateDropdown({
+   Name = "Bundles",
+   Options = {"LuckOTheIrishBundle","AnniversaryClassicBundle","DarkBonesBundle","RedNutcrackerBundle","2ndAnniversaryBundle","GravePumpkinBundle","ToySantaBundle","SpookySweetsBundle","SantaChimneyBundle","PhantomLightBundle","SantaBootBundle","PartyBalloonsBundle","DoomthrustBundle","DevilishFlameBundle","DarkMansionBundle","IcethrustBundle","FestiveCandelabraBundle","JollyDrumsBundle","ToyGiftBundle",},
+   CurrentOption = "choose",
+   Flag = "Dropdown1", 
+   Callback = function(Option)
+
+if Option == "LuckOTheIrishBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 166842694
+elseif Option == "AnniversaryClassicBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 307452494
+elseif Option == "DarkBonesBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 410810282
+elseif Option == "RedNutcrackerBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 437772898
+elseif Option == "2ndAnniversaryBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 592700787
+elseif Option == "GravePumpkinBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 841407877
+elseif Option == "ToySantaBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 944207779
+elseif Option == "SpookySweetsBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1111393988
+elseif Option == "SantaChimneyBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1132314724
+elseif Option == "PhantomLightBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1217788858
+elseif Option == "SantaBootBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1230545100
+elseif Option == "PartyBalloonsBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1333174228
+elseif Option == "DoomthrustBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1333174293
+elseif Option == "DevilishFlameBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1333174360
+elseif Option == "DarkMansionBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1333174451
+elseif Option == "IcethrustBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1349950318
+elseif Option == "FestiveCandelabraBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1349950691
+elseif Option == "JollyDrumsBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1349950823
+elseif Option == "ToyGiftBundle" then
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.LocalScript.Enabled = true
+game:GetService("Players").LocalPlayer.PlayerGui.MenusScreenGui.ShopMenuWindow.Body.SideBarTabsFrame.BuyBundleButton2.Visible = true
+
+local hi = require(game:GetService("ReplicatedStorage").DeveloperProductIds);
+
+hi["RedNutcrackerBundle"] = 1349951027
+
+local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph Example"})
+          
+      end
+   end
+})
+
+local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "This script will let you buy discontinued bundles (that cost robux). When buying said bundle it may say it cost 0 or 1 robux, that is just a glitch. Most bundles cost atleast 650. This script was made possible thanks to a man named bedra45 on v3rmillion. If you wish to find more scripts like this check out my github: github.com/raisincains/scripts"})
+
+Rayfield:Notify({
+   Title = "Warning!",
+   Content = "This has not been confirmed but this has a chance of being banned. Please use with caution.",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
