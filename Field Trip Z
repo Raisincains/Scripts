@@ -1,0 +1,122 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Field Trip Z Sucks",
+   LoadingTitle = "i wuv you all",
+   LoadingSubtitle = "sub to raisincains",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Sirius Hub",
+      Subtitle = "Key System",
+      Note = "Join the discord (discord.gg/sirius)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Hello"
+   }
+})
+
+local Tab = Window:CreateTab("Enjoy<3", 4483362458) -- Title, Image
+
+local Label = Tab:CreateLabel("Items")
+
+local Button = Tab:CreateButton({
+   Name = "Get Medkit",
+   Callback = function()
+	game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer("PICKUP_ITEM", "MedKit")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Get Donut",
+   Callback = function()
+	game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer("PICKUP_ITEM", "Donut")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Get Bandage",
+   Callback = function()
+	game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer("PICKUP_ITEM", "Bandage")
+   end,
+})
+
+local Label = Tab:CreateLabel("Heals")
+
+local Button = Tab:CreateButton({
+   Name = "Heal Everyone",
+   Callback = function()
+	for i, v in pairs(game.Players:GetPlayers()) do
+                if v.Name ~= game:GetService("Players").LocalPlayer then
+                    game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
+                        "HEAL_PLAYER",
+                        v,
+                        9e9
+                    )
+                end
+            end
+        end
+})
+
+local Label = Tab:CreateLabel("Player")
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Jump",
+   Callback = function()
+local Player = game:GetService("Players").LocalPlayer
+local Mouse = Player:GetMouse()
+Mouse.KeyDown:connect(function(k)
+if _G.infinjump then
+if k:byte() == 32 then
+Humanoid = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+Humanoid:ChangeState("Jumping")
+wait(0.1)
+Humanoid:ChangeState("Seated")
+end
+end
+end)
+
+_G.infinjump = true
+ 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Noclip",
+   Callback = function()
+	local noclip = true
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+local mouse = player:GetMouse()
+
+while true do
+    player = game.Players.LocalPlayer
+    character = player.Character
+
+    if noclip then
+        for _, v in pairs(character:GetDescendants()) do
+            pcall(function()
+                if v:IsA("BasePart") then
+                    v.CanCollide = false
+                end
+            end)
+        end
+    end
+
+    game:GetService("RunService").Stepped:wait()
+end
+   end,
+})
+local Label = Tab:CreateLabel("github.com/raisincains/scripts")
+local Label = Tab:CreateLabel("sub to raisincains pls")
