@@ -715,6 +715,30 @@ end)
 end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Rejoin",
+   Callback = function()
+  -- rejoin		
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+ 
+local Rejoin = coroutine.create(function()
+    local Success, ErrorMessage = pcall(function()
+        TeleportService:Teleport(game.PlaceId, LocalPlayer)
+    end)
+ 
+    if ErrorMessage and not Success then
+        warn(ErrorMessage)
+    end
+end)
+ 
+coroutine.resume(Rejoin)
+   end,
+})
+
+
+
 local Section = Tab:CreateSection("Credits")
 local Label = Tab:CreateLabel("Raisincains")
 local Label = Tab:CreateLabel("pls sub to me")
