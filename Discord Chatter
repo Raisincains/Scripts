@@ -1,0 +1,3 @@
+webhook = 'url'
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Raisincains/Scripts/main/Discord%20Chatter%20Source"))()
