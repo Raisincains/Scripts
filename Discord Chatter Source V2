@@ -1,0 +1,72 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ButtonOpen = Instance.new("ImageButton")
+local ButtonFrame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ButtonOpen.Name = "ButtonOpen"
+ButtonOpen.Parent = ScreenGui
+ButtonOpen.BackgroundColor3 = Color3.fromRGB(114, 137, 218)
+ButtonOpen.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ButtonOpen.BorderSizePixel = 0
+ButtonOpen.Position = UDim2.new(0.0540000014, 0, 0, -33)
+ButtonOpen.Size = UDim2.new(0, 32, 0, 32)
+ButtonOpen.Image = "http://www.roblox.com/asset/?id=13211889129"
+
+ButtonFrame.Name = "ButtonFrame"
+ButtonFrame.Parent = ScreenGui
+ButtonFrame.BackgroundColor3 = Color3.fromRGB(44, 47, 51)
+ButtonFrame.BorderSizePixel = 0
+ButtonFrame.Position = UDim2.new(0.455161631, 0, 0.00502512557, 0)
+ButtonFrame.Size = UDim2.new(0, 150, 0, 20)
+ButtonFrame.Visible = false
+
+TextBox.Parent = ButtonFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(44, 47, 51)
+TextBox.BorderSizePixel = 0
+TextBox.Size = UDim2.new(0, 150, 0, 20)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "Sub to raisincains"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+-- Scripts:
+
+
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local ScreenGui = script.Parent
+	local ButtonFrame = ScreenGui.ButtonFrame
+	local ButtonOpen = ScreenGui.ButtonOpen
+	
+	ButtonOpen.MouseButton1Up:Connect(function()
+		ButtonFrame.Visible = not ButtonFrame.Visible
+	
+	end)
+
+	local script = Instance.new('LocalScript', TextBox)
+
+	local part = script.Parent
+	
+	part.FocusLost:Connect(function(enterpressed)
+		if enterpressed then
+			local response = syn.request(
+    {
+        Url = webhook,
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json'
+        },
+        Body = game:GetService('HttpService'):JSONEncode({content = part.Text})
+    }
+);
+		end
+	end)
