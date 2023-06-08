@@ -1,0 +1,152 @@
+--[[
+
+		Movement Essentials
+		by raisincains#5706
+
+]]
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Made by raisincains";
+    Text = "Left click to increase ws and jp, Right click to decrease ws and jp.";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Walkspeed = Instance.new("TextButton")
+local Jumppower = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local TopBar = Instance.new("TextLabel")
+local ws = game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed
+local jp = game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Frame.BorderColor3 = Color3.new(0.513726, 0.517647, 1)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.592969477, 0, 0.378571421, 0)
+Frame.Size = UDim2.new(0, 75, 0, 171)
+Frame.Active = true
+Frame.Draggable = true
+
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = Frame
+Walkspeed.BackgroundColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Walkspeed.BorderColor3 = Color3.new(0.513726, 0.517647, 1)
+Walkspeed.BorderSizePixel = 2
+Walkspeed.Position = UDim2.new(0, 3, 0, 38)
+Walkspeed.Size = UDim2.new(0, 69, 0, 25)
+Walkspeed.Font = Enum.Font.Ubuntu
+Walkspeed.Text = "Walkspeed"
+Walkspeed.TextColor3 = Color3.new(0.513726, 0.517647, 1)
+Walkspeed.TextSize = 14
+Walkspeed.MouseButton1Click:Connect(function()
+	ws = ws + 5
+	print(ws)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = ws
+end)
+
+Walkspeed.MouseButton2Click:Connect(function()
+	ws = ws - 5
+	print(ws)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = ws
+end)
+
+Jumppower.Name = "Jumppower"
+Jumppower.Parent = Frame
+Jumppower.BackgroundColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Jumppower.BorderColor3 = Color3.new(0.513726, 0.517647, 1)
+Jumppower.BorderSizePixel = 2
+Jumppower.Position = UDim2.new(0, 3, 0, 73)
+Jumppower.Size = UDim2.new(0, 69, 0, 25)
+Jumppower.Font = Enum.Font.Ubuntu
+Jumppower.Text = "Jumppower"
+Jumppower.TextColor3 = Color3.new(0.513726, 0.517647, 1)
+Jumppower.TextSize = 14
+Jumppower.MouseButton1Click:Connect(function()
+	jp = jp + 5
+	print(jp)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = jp
+end)
+
+Jumppower.MouseButton2Click:Connect(function()
+	jp = jp - 5
+	print(jp)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = jp
+end)
+
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Frame
+Noclip.BackgroundColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Noclip.BorderColor3 = Color3.new(0.513726, 0.517647, 1)
+Noclip.BorderSizePixel = 2
+Noclip.Position = UDim2.new(0, 3, 0, 143)
+Noclip.Size = UDim2.new(0, 69, 0, 25)
+Noclip.Font = Enum.Font.Ubuntu
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.new(0.513726, 0.517647, 1)
+Noclip.TextSize = 14
+Noclip.MouseButton1Click:Connect(function()
+while true do
+    player = game.Players.LocalPlayer
+    character = player.Character
+	local noclip = true
+    if noclip then
+        for _, v in pairs(character:GetDescendants()) do
+            pcall(function()
+                if v:IsA("BasePart") then
+                    v.CanCollide = false
+                end
+            end)
+        end
+    end
+
+    game:GetService("RunService").Stepped:wait()
+end
+end)
+
+
+Fly.Name = "Fly"
+Fly.Parent = Frame
+Fly.BackgroundColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Fly.BorderColor3 = Color3.new(0.513726, 0.517647, 1)
+Fly.BorderSizePixel = 2
+Fly.Position = UDim2.new(0, 3, 0, 108)
+Fly.Size = UDim2.new(0, 69, 0, 25)
+Fly.Font = Enum.Font.Ubuntu
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.new(0.513726, 0.517647, 1)
+Fly.TextSize = 14
+Fly.MouseButton1Click:Connect(function()
+
+	game.StarterGui:SetCore("SendNotification", {
+    Title = "Made by raisincains";
+    Text = "E to Toggle";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+	loadstring(game:HttpGet("https://pastebin.com/raw/RkUtdYb0", true))()
+end)
+
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Frame
+TopBar.BackgroundColor3 = Color3.new(0.513726, 0.517647, 1)
+TopBar.BorderColor3 = Color3.new(0.513726, 0.517647, 1)
+TopBar.BorderSizePixel = 3
+TopBar.Position = UDim2.new(0, 0, 0, 3)
+TopBar.Size = UDim2.new(0, 75, 0, 25)
+TopBar.Font = Enum.Font.Ubuntu
+TopBar.Text = "Movement Essentials"
+TopBar.TextColor3 = Color3.new(0, 0, 0)
+TopBar.TextSize = 12
+TopBar.TextWrapped = true
