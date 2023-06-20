@@ -1,4 +1,4 @@
---kavo ui with better themes!
+--kavo ui better lightmode by raisincains
 
 local Kavo = {}
 
@@ -93,11 +93,12 @@ function Kavo:ToggleUI()
     end
 end
 
-function Kavo.CreateLib(kavName)
+function Kavo.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
         themeList = themeStyles.BetterLightTheme
+  
     end
 
     themeList = themeList or {}
