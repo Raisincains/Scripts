@@ -69,8 +69,8 @@ local themeStyles = {
         Header = Color3.fromRGB(200, 200, 200),
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(224, 224, 224)
-	},
-	 BetterLightTheme = {
+    },
+    BetterLightTheme = {
         SchemeColor = Color3.fromRGB(242, 243, 245),
         Background = Color3.fromRGB(242, 243, 245),
         Header = Color3.fromRGB(227, 229, 232),
