@@ -20,10 +20,19 @@ local OrionLib = {
 			Divider = Color3.fromRGB(227, 229, 232),
 			Text = Color3.fromRGB(75, 75, 75),
 			Text3 = Color3.fromRGB(75, 75, 75),
-			TextDark = Color3.fromRGB(50, 50, 50)
-		}
+			TextDark = Color3.fromRGB(50, 50, 50),
+		},
+		Darkmode = {
+			Main = Color3.fromRGB(33, 37, 41),
+			Second = Color3.fromRGB(52, 58, 64),
+			Stroke = Color3.fromRGB(108, 117, 125),
+			Divider = Color3.fromRGB(108, 117, 125),
+			Text = Color3.fromRGB(248, 249, 250),
+			Text3 = Color3.fromRGB(248, 249, 250),
+			TextDark = Color3.fromRGB(233, 236, 239),
+			}
 	},
-	SelectedTheme = "Default",
+	SelectedTheme = "Darkmode",
 	Folder = nil,
 	SaveCfg = false
 }
@@ -402,7 +411,7 @@ function OrionLib:MakeNotification(NotificationConfig)
 			Parent = NotificationHolder
 		})
 
-		local NotificationFrame = SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(227, 229, 232), 0, 10), {
+		local NotificationFrame = SetChildren(SetProps(MakeElement("RoundFrame", NotifcationBackground, 0, 10), {
 			Parent = NotificationParent, 
 			Size = UDim2.new(1, 0, 0, 0),
 			Position = UDim2.new(1, -55, 0, 0),
@@ -1772,5 +1781,4 @@ function OrionLib:Destroy()
 end
 
 return OrionLib
-
 
