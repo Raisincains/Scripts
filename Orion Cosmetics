@@ -19,6 +19,7 @@ local OrionLib = {
 			Stroke = Color3.fromRGB(227, 229, 232),
 			Divider = Color3.fromRGB(227, 229, 232),
 			Text = Color3.fromRGB(75, 75, 75),
+			Text3 = Color3.fromRGB(75, 75, 75),
 			TextDark = Color3.fromRGB(50, 50, 50)
 		}
 	},
@@ -479,7 +480,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroText = WindowConfig.IntroText or "Modded by raisincains"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Modded by Raisincains"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://8834748103"
@@ -556,7 +557,7 @@ function OrionLib:MakeWindow(WindowConfig)
 			}), "Stroke"), 
 			AddThemeObject(SetChildren(SetProps(MakeElement("Frame"), {
 				AnchorPoint = Vector2.new(0, 0.5),
-				Size = UDim2.new(0, 32, 0, 32),
+				Size = UDim2.new(0, 28, 0, 28),
 				Position = UDim2.new(0, 10, 0.5, 0)
 			}), {
 				SetProps(MakeElement("Image", "https://www.roblox.com/headshot-thumbnail/image?userId=".. LocalPlayer.UserId .."&width=420&height=420&format=png"), {
@@ -569,22 +570,22 @@ function OrionLib:MakeWindow(WindowConfig)
 			}), "Divider"),
 			SetChildren(SetProps(MakeElement("TFrame"), {
 				AnchorPoint = Vector2.new(0, 0.5),
-				Size = UDim2.new(0, 32, 0, 32),
+				Size = UDim2.new(0, 28, 0, 28),
 				Position = UDim2.new(0, 10, 0.5, 0)
 			}), {
 				AddThemeObject(MakeElement("Stroke"), "Stroke"),
 				MakeElement("Corner", 1)
 			}),
-			AddThemeObject(SetProps(MakeElement("Label", LocalPlayer.DisplayName, WindowConfig.HidePremium and 14 or 13), {
-				Size = UDim2.new(1, -60, 0, 13),
-				Position = WindowConfig.HidePremium and UDim2.new(0, 50, 0, 19) or UDim2.new(0, 50, 0, 12),
+			AddThemeObject(SetProps(MakeElement("Label", "Hey " .. LocalPlayer.DisplayName .."!", WindowConfig.HidePremium and 14 or 13), {
+				Size = UDim2.new(1, 0, 0, 18),
+				Position = WindowConfig.HidePremium and UDim2.new(0, 50, 0, 19) or UDim2.new(0, 45, 0, 8),
 				Font = Enum.Font.GothamBold,
 				ClipsDescendants = true
 			}), "Text"),
-			AddThemeObject(SetProps(MakeElement("Label", Executor), {
-				Size = UDim2.new(1, -60, 0, 13),
-				Position = WindowConfig.HidePremium and UDim2.new(0, 80, 0, 19) or UDim2.new(0, 50, 0, 27),
-				Font = Enum.Font.GothamBold,
+			AddThemeObject(SetProps(MakeElement("Label", "Using: "..Executor), {
+				Size = UDim2.new(1, 0, 0, 20),
+				Position = WindowConfig.HidePremium and UDim2.new(0, 80, 0, 19) or UDim2.new(0, 45, 0, 22),
+				Font = Enum.Font.Ubuntu,
 				ClipsDescendants = true
 			}), "Text"),
 			AddThemeObject(SetProps(MakeElement("Label", "", 12), {
@@ -1771,4 +1772,5 @@ function OrionLib:Destroy()
 end
 
 return OrionLib
+
 
