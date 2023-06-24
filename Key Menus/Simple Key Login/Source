@@ -1,0 +1,153 @@
+--[[
+	Simple Key Login, To edit it just change the correct keys at the bottom
+	Made by kaisouls on discord <3
+]]
+
+	local GUI = Instance.new("ScreenGui")
+	local FrameA = Instance.new("ImageLabel")
+	local Title = Instance.new("TextLabel")
+	local Inputs = Instance.new("Frame")
+	local PasswordInput = Instance.new("Frame")
+	local InputType = Instance.new("TextLabel")
+	local InputFrame = Instance.new("ImageLabel")
+	local InputBox = Instance.new("TextBox")
+	local Outline = Instance.new("Frame")
+	local Buttons = Instance.new("Frame")
+	local TextButton = Instance.new("TextButton")
+
+	GUI.Name = "GUI"
+	GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+	FrameA.Name = "FrameA"
+	FrameA.Parent = GUI
+	FrameA.AnchorPoint = Vector2.new(0.5, 0.5)
+	FrameA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	FrameA.BackgroundTransparency = 1.000
+	FrameA.Position = UDim2.new(0.5, 0, 0.5, 0)
+	FrameA.Size = UDim2.new(0, 280, 0, 125)
+	FrameA.ZIndex = 2
+	FrameA.Image = "rbxassetid://2790382281"
+	FrameA.ScaleType = Enum.ScaleType.Slice
+	FrameA.SliceCenter = Rect.new(4, 4, 252, 252)
+
+	Title.Name = "Title"
+	Title.Parent = FrameA
+	Title.AnchorPoint = Vector2.new(0.5, 0.5)
+	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Title.BorderSizePixel = 0
+	Title.Position = UDim2.new(0.423177093, 0, 0.169783801, 0)
+	Title.Size = UDim2.new(0.7421875, 0, 0.127337813, 0)
+	Title.ZIndex = 2
+	Title.Font = Enum.Font.GothamMedium
+	Title.Text = "Login"
+	Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Title.TextSize = 18.000
+	Title.TextXAlignment = Enum.TextXAlignment.Left
+	Title.TextYAlignment = Enum.TextYAlignment.Top
+
+	Inputs.Name = "Inputs"
+	Inputs.Parent = FrameA
+	Inputs.AnchorPoint = Vector2.new(0.5, 0.5)
+	Inputs.BackgroundColor3 = Color3.fromRGB(171, 171, 171)
+	Inputs.BackgroundTransparency = 1.000
+	Inputs.BorderSizePixel = 0
+	Inputs.Position = UDim2.new(0.5, 0, 0.532000005, 0)
+	Inputs.Size = UDim2.new(0.89453125, 0, 0.51784265, 0)
+	Inputs.ZIndex = 2
+
+	PasswordInput.Name = "PasswordInput"
+	PasswordInput.Parent = Inputs
+	PasswordInput.AnchorPoint = Vector2.new(0.5, 0.5)
+	PasswordInput.BackgroundColor3 = Color3.fromRGB(162, 162, 162)
+	PasswordInput.BackgroundTransparency = 1.000
+	PasswordInput.BorderSizePixel = 0
+	PasswordInput.Position = UDim2.new(0.5, 0, 0.600000024, 0)
+	PasswordInput.Size = UDim2.new(1.00000012, 0, 0.422581971, 0)
+	PasswordInput.ZIndex = 2
+
+	InputType.Name = "InputType"
+	InputType.Parent = PasswordInput
+	InputType.AnchorPoint = Vector2.new(0.5, 0)
+	InputType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	InputType.BackgroundTransparency = 1.000
+	InputType.BorderSizePixel = 0
+	InputType.Position = UDim2.new(0.5, 0, 0, -10)
+	InputType.Size = UDim2.new(1, 0, 0.361526042, 0)
+	InputType.ZIndex = 2
+	InputType.Font = Enum.Font.GothamMedium
+	InputType.Text = "Key"
+	InputType.TextColor3 = Color3.fromRGB(44, 44, 44)
+	InputType.TextSize = 14.000
+	InputType.TextWrapped = true
+	InputType.TextXAlignment = Enum.TextXAlignment.Left
+	InputType.TextYAlignment = Enum.TextYAlignment.Top
+
+	InputFrame.Name = "InputFrame"
+	InputFrame.Parent = PasswordInput
+	InputFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+	InputFrame.BackgroundColor3 = Color3.fromRGB(203, 203, 203)
+	InputFrame.BackgroundTransparency = 1.000
+	InputFrame.BorderSizePixel = 0
+	InputFrame.Position = UDim2.new(0.49999997, 0, 0.680762768, 0)
+	InputFrame.Size = UDim2.new(1, 0, 0.63847369, 0)
+	InputFrame.ZIndex = 2
+	InputFrame.Image = "rbxassetid://2790382281"
+	InputFrame.ImageColor3 = Color3.fromRGB(235, 235, 235)
+	InputFrame.ScaleType = Enum.ScaleType.Slice
+	InputFrame.SliceCenter = Rect.new(4, 4, 252, 252)
+
+	InputBox.Name = "InputBox"
+	InputBox.Parent = InputFrame
+	InputBox.AnchorPoint = Vector2.new(0.5, 0.5)
+	InputBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	InputBox.BackgroundTransparency = 1.000
+	InputBox.BorderSizePixel = 0
+	InputBox.Position = UDim2.new(0.5, 0, 0.5, 0)
+	InputBox.Size = UDim2.new(0.978165865, 0, 0.789859891, 0)
+	InputBox.ZIndex = 2
+	InputBox.Font = Enum.Font.GothamMedium
+	InputBox.Text = ""
+	InputBox.TextColor3 = Color3.fromRGB(47, 47, 47)
+	InputBox.TextSize = 14.000
+	InputBox.TextXAlignment = Enum.TextXAlignment.Left
+
+	Outline.Name = "Outline"
+	Outline.Parent = InputFrame
+	Outline.AnchorPoint = Vector2.new(0.5, 0.5)
+	Outline.BackgroundColor3 = Color3.fromRGB(0, 161, 115)
+	Outline.BorderSizePixel = 0
+	Outline.Position = UDim2.new(0.5, 0, 0.968999982, 0)
+	Outline.ZIndex = 2
+
+	Buttons.Name = "Buttons"
+	Buttons.Parent = FrameA
+	Buttons.AnchorPoint = Vector2.new(0.5, 0.5)
+	Buttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Buttons.BackgroundTransparency = 1.000
+	Buttons.BorderSizePixel = 0
+	Buttons.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+	Buttons.Size = UDim2.new(0.893229187, 0, 0.133348644, 0)
+	Buttons.ZIndex = 2
+
+	TextButton.Parent = Buttons
+	TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextButton.BorderSizePixel = 0
+	TextButton.Position = UDim2.new(0.800000012, 0, 0, 0)
+	TextButton.Size = UDim2.new(0, 50, 0, 25)
+	TextButton.ZIndex = 2
+	TextButton.Font = Enum.Font.Gotham
+	TextButton.Text = "Enter"
+	TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextButton.TextSize = 14.000
+	TextButton.MouseButton1Down:Connect(function(checkkey)
+
+	if 
+		InputBox.Text == "Bongo1"
+		then
+			print(1)
+		else
+			print(2)
+	end)
+
+
