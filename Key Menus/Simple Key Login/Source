@@ -29,7 +29,8 @@
 	FrameA.Image = "rbxassetid://2790382281"
 	FrameA.ScaleType = Enum.ScaleType.Slice
 	FrameA.SliceCenter = Rect.new(4, 4, 252, 252)
-
+	FrameA.Visible = true
+	
 	Title.Name = "Title"
 	Title.Parent = FrameA
 	Title.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -148,6 +149,8 @@
 			print(1)
 		else
 			print(2)
+			wait(1)
+			FrameA.Visible = false
+		
+		end
 	end)
-
-
