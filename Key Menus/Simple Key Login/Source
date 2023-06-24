@@ -1,8 +1,8 @@
---[[
-	Simple Key Login, To edit it just change the correct keys at the bottom
-	Made by kaisouls on discord <3
-]]
+local keyGui = {}
 
+
+
+function keyGui:Create(Key1, Key2)
 	local GUI = Instance.new("ScreenGui")
 	local FrameA = Instance.new("ImageLabel")
 	local Title = Instance.new("TextLabel")
@@ -144,13 +144,22 @@
 	TextButton.MouseButton1Down:Connect(function(checkkey)
 
 	if 
-		InputBox.Text == "Bongo1"
+		InputBox.Text == Key1
 		then
 			print(1)
-		else
+			wait(1)
+			FrameA.Visible = false
+		elseif
+		InputBox.Text == Key2	
+		then
 			print(2)
+			wait(1)
+			FrameA.Visible = false
+		else
+			print(3)
 			wait(1)
 			FrameA.Visible = false
 		
 		end
 	end)
+end
