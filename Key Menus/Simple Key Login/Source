@@ -2,7 +2,7 @@ local keyGui = {}
 
 
 
-function keyGui:Create(Key1, Key2)
+function keyGui:Create(Key, callback)
 	local GUI = Instance.new("ScreenGui")
 	local FrameA = Instance.new("ImageLabel")
 	local Title = Instance.new("TextLabel")
@@ -15,6 +15,7 @@ function keyGui:Create(Key1, Key2)
 	local Buttons = Instance.new("Frame")
 	local TextButton = Instance.new("TextButton")
 
+		
 	GUI.Name = "GUI"
 	GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
@@ -142,21 +143,17 @@ function keyGui:Create(Key1, Key2)
 	TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 	TextButton.TextSize = 14.000
 	TextButton.MouseButton1Down:Connect(function(checkkey)
-
+	
+	
+	
 	if 
-		InputBox.Text == Key1
+		InputBox.Text == Key
 		then
-			print(1)
-			wait(1)
-			FrameA.Visible = false
-		elseif
-		InputBox.Text == Key2	
-		then
-			print(2)
+			pcall(callback)
 			wait(1)
 			FrameA.Visible = false
 		else
-			print(3)
+			print("Incorrect Key")
 			wait(1)
 			FrameA.Visible = false
 		
