@@ -1,0 +1,18 @@
+function voidplate(x,z)
+	workspace.FallenPartsDestroyHeight = "nan"
+	local VoidPlate = Instance.new("Part")
+	VoidPlate.Parent = game.Workspace
+	VoidPlate.Name = "VoidPlate"
+	VoidPlate.Anchored = true
+	VoidPlate.BottomSurface = Enum.SurfaceType.Smooth
+	VoidPlate.BrickColor = BrickColor.new('Really black')
+	VoidPlate.CFrame = CFrame.new(0, -69436, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	VoidPlate.Color = Color3.new(0, 0, 0)
+	VoidPlate.Locked = true
+	VoidPlate.Material = Enum.Material.Limestone
+	VoidPlate.Size = Vector3.new(x, 16, z)
+	VoidPlate.TopSurface = Enum.SurfaceType.Smooth
+	game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(CFrame.new(0,-69420,0))
+end
+
+--voidplate(128,128)
