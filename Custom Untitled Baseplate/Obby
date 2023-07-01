@@ -1,4 +1,4 @@
-Part_1 = Instance.new("Part"); Part_2 = Instance.new("Part"); Part_3 = Instance.new("Part"); Part_4 = Instance.new("Part"); Part_5 = Instance.new("Part"); Part_6 = Instance.new("Part"); Part_7 = Instance.new("Part"); Part_8 = Instance.new("Part"); Part_9 = Instance.new("Part"); Part_10 = Instance.new("Part"); Part_11 = Instance.new("Part"); Part_12 = Instance.new("Part"); Part_13 = Instance.new("Part"); Part_14 = Instance.new("Part"); Part_15 = Instance.new("Part"); Part_16 = Instance.new("Part"); Part_17 = Instance.new("Part"); Part_18 = Instance.new("Part"); Part_19 = Instance.new("Part"); Part_20 = Instance.new("Part"); Part_21 = Instance.new("Part"); Part_22 = Instance.new("Part"); Part_23 = Instance.new("Part"); Part_24 = Instance.new("Part"); Part_25 = Instance.new("Part"); Part_26 = Instance.new("Part"); Part_27 = Instance.new("Part"); Part_28 = Instance.new("Part"); Part_29 = Instance.new("Part"); Part_30 = Instance.new("Part"); Part_31 = Instance.new("Part"); Part_32 = Instance.new("Part"); Part_33 = Instance.new("Part"); Folder_1 = Instance.new("Folder")
+Part_1 = Instance.new("Part"); Part_2 = Instance.new("Part"); Part_3 = Instance.new("Part"); Part_4 = Instance.new("Part"); Part_5 = Instance.new("Part"); Part_6 = Instance.new("Part"); Part_7 = Instance.new("Part"); Part_8 = Instance.new("Part"); Part_9 = Instance.new("Part"); Part_10 = Instance.new("Part"); Part_11 = Instance.new("Part"); Part_12 = Instance.new("Part"); Part_13 = Instance.new("Part"); Part_14 = Instance.new("Part"); Part_15 = Instance.new("Part"); Part_16 = Instance.new("Part"); Part_17 = Instance.new("Part"); Part_18 = Instance.new("Part"); Part_19 = Instance.new("Part"); Part_20 = Instance.new("Part"); Part_21 = Instance.new("Part"); Part_22 = Instance.new("Part"); Part_23 = Instance.new("Part"); Part_24 = Instance.new("Part"); Part_25 = Instance.new("Part"); Part_26 = Instance.new("Part"); Part_27 = Instance.new("Part"); Part_28 = Instance.new("Part"); Part_29 = Instance.new("Part"); Part_30 = Instance.new("Part"); Part_31 = Instance.new("Part"); Part_32 = Instance.new("Part"); Part_33 = Instance.new("Part"); Part_34 = Instance.new("Part"); Part_35 = Instance.new("Part"); Part_36 = Instance.new("Part"); Part_37 = Instance.new("Part"); Seat_1 = Instance.new("Seat"); Seat_2 = Instance.new("Seat"); Folder_1 = Instance.new("Folder")
 
 --
 
@@ -45,11 +45,11 @@ Part_3.Parent = Folder_1
 Part_4.Anchored = true
 Part_4.BottomSurface = Enum.SurfaceType.Smooth
 Part_4.BrickColor = BrickColor.new('Institutional white')
-Part_4.CFrame = CFrame.new(-41.790287, 21.6500149, -52.8846741, 1, 0, 1.19248806e-08, 0, 1, 0, -1.19248806e-08, 0, 1)
+Part_4.CFrame = CFrame.new(-41.790287, 21.1500149, -52.3846741, 1, 0, 1.19248806e-08, 0, 1, 0, -1.19248806e-08, 0, 1)
 Part_4.CastShadow = false
 Part_4.Color = Color3.new(0.972549, 0.972549, 0.972549)
 Part_4.Material = Enum.Material.Concrete
-Part_4.Size = Vector3.new(0.1999998688697815, 23.299999237060547, 10.5)
+Part_4.Size = Vector3.new(0.1999998688697815, 4.299999237060547, 5.5)
 Part_4.TopSurface = Enum.SurfaceType.Smooth
 Part_4.Transparency = 1
 Part_4.Parent = Folder_1
@@ -213,12 +213,12 @@ Part_17.Parent = Folder_1
 Part_18.Anchored = true
 Part_18.BottomSurface = Enum.SurfaceType.Smooth
 Part_18.BrickColor = BrickColor.new('Institutional white')
-Part_18.CFrame = CFrame.new(-28.3140602, 16.2663727, -109.356705, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
+Part_18.CFrame = CFrame.new(-28.3140602, 16.2663727, -101.356705, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
 Part_18.CastShadow = false
 Part_18.Color = Color3.new(0.972549, 0.972549, 0.972549)
 Part_18.Material = Enum.Material.Concrete
 Part_18.Rotation = Vector3.new(0, -90, 0)
-Part_18.Size = Vector3.new(18.586231231689453, 12.531827926635742, 75.21363830566406)
+Part_18.Size = Vector3.new(0.5862312316894531, 12.531827926635742, 75.21363830566406)
 Part_18.TopSurface = Enum.SurfaceType.Smooth
 Part_18.Parent = Folder_1
 
@@ -249,7 +249,7 @@ Part_20.Parent = Folder_1
 Part_21.Anchored = true
 Part_21.BottomSurface = Enum.SurfaceType.Smooth
 Part_21.BrickColor = BrickColor.new('Institutional white')
-Part_21.CFrame = CFrame.new(18.6859398, 22.2663727, -109.356705, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
+Part_21.CFrame = CFrame.new(18.8995781, 22.2822876, -109.313591, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
 Part_21.CastShadow = false
 Part_21.Color = Color3.new(0.972549, 0.972549, 0.972549)
 Part_21.Material = Enum.Material.Concrete
@@ -401,6 +401,57 @@ Part_33.Rotation = Vector3.new(0, -90, 0)
 Part_33.Size = Vector3.new(18.586231231689453, 12.063178062438965, 0.9826704263687134)
 Part_33.TopSurface = Enum.SurfaceType.Smooth
 Part_33.Parent = Folder_1
+
+Part_34.Anchored = true
+Part_34.BottomSurface = Enum.SurfaceType.Smooth
+Part_34.BrickColor = BrickColor.new('Institutional white')
+Part_34.CFrame = CFrame.new(-65.564064, 16.2663727, -109.356705, -1, 0, -2.38497613e-08, 0, 1, 0, 2.38497613e-08, 0, -1)
+Part_34.CastShadow = false
+Part_34.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part_34.Material = Enum.Material.Concrete
+Part_34.Rotation = Vector3.new(-180, 0, -180)
+Part_34.Size = Vector3.new(0.5862312316894531, 12.531827926635742, 17.213638305664062)
+Part_34.TopSurface = Enum.SurfaceType.Smooth
+Part_34.Parent = Folder_1
+
+Part_35.Anchored = true
+Part_35.BottomSurface = Enum.SurfaceType.Smooth
+Part_35.BrickColor = BrickColor.new('Institutional white')
+Part_35.CFrame = CFrame.new(-28.3140602, 16.2663727, -117.606705, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
+Part_35.CanCollide = false
+Part_35.CanQuery = false
+Part_35.CanTouch = false
+Part_35.CastShadow = false
+Part_35.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part_35.Material = Enum.Material.Concrete
+Part_35.Rotation = Vector3.new(0, -90, 0)
+Part_35.Size = Vector3.new(0.5862312316894531, 12.531827926635742, 75.21363830566406)
+Part_35.TopSurface = Enum.SurfaceType.Smooth
+Part_35.Parent = Folder_1
+
+Part_36.Anchored = true
+Part_36.BottomSurface = Enum.SurfaceType.Smooth
+Part_36.BrickColor = BrickColor.new('Institutional white')
+Part_36.CFrame = CFrame.new(-28.064064, 22.2663727, -109.356705, -1.19248806e-08, 1, -2.84405553e-16, 1, 1.19248806e-08, 2.38497613e-08, 2.38497613e-08, 0, -1)
+Part_36.CastShadow = false
+Part_36.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part_36.Material = Enum.Material.Concrete
+Part_36.Rotation = Vector3.new(-180, 0, -90)
+Part_36.Size = Vector3.new(0.5862312316894531, 75.53182983398438, 17.213638305664062)
+Part_36.TopSurface = Enum.SurfaceType.Smooth
+Part_36.Parent = Folder_1
+
+Part_37.Anchored = true
+Part_37.BottomSurface = Enum.SurfaceType.Smooth
+Part_37.BrickColor = BrickColor.new('Institutional white')
+Part_37.CFrame = CFrame.new(9.18593597, 16.2663727, -109.356705, -1, 0, -2.38497613e-08, 0, 1, 0, 2.38497613e-08, 0, -1)
+Part_37.CastShadow = false
+Part_37.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part_37.Material = Enum.Material.Concrete
+Part_37.Rotation = Vector3.new(-180, 0, -180)
+Part_37.Size = Vector3.new(0.5862312316894531, 12.531827926635742, 17.213638305664062)
+Part_37.TopSurface = Enum.SurfaceType.Smooth
+Part_37.Parent = Folder_1
 
 Folder_1.Name = "Obby"
 ----------------------------------------------------------------------------------------------------
