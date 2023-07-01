@@ -1,0 +1,347 @@
+Part_1 = Instance.new("Part"); Part_2 = Instance.new("Part"); Part_3 = Instance.new("Part"); Part_4 = Instance.new("Part"); Part_5 = Instance.new("Part"); Part_6 = Instance.new("Part"); Part_7 = Instance.new("Part"); Part_8 = Instance.new("Part"); Part_9 = Instance.new("Part"); Part_10 = Instance.new("Part"); Part_11 = Instance.new("Part"); Part_12 = Instance.new("Part"); Part_13 = Instance.new("Part"); Part_14 = Instance.new("Part"); Part_15 = Instance.new("Part"); Part_16 = Instance.new("Part"); Part_17 = Instance.new("Part"); Part_18 = Instance.new("Part"); Part_19 = Instance.new("Part"); Part_20 = Instance.new("Part"); Part_21 = Instance.new("Part"); Part_22 = Instance.new("Part"); Part_23 = Instance.new("Part"); Part_24 = Instance.new("Part"); Part_25 = Instance.new("Part"); Part_26 = Instance.new("Part"); Part_27 = Instance.new("Part"); Part_28 = Instance.new("Part"); Part_29 = Instance.new("Part"); Part_30 = Instance.new("Part"); Part_31 = Instance.new("Part"); Part_32 = Instance.new("Part"); Part_33 = Instance.new("Part"); Part_34 = Instance.new("Part"); Part_35 = Instance.new("Part"); Part_36 = Instance.new("Part"); Part_37 = Instance.new("Part"); Part_38 = Instance.new("Part"); Part_39 = Instance.new("Part"); Part_40 = Instance.new("Part"); Part_41 = Instance.new("Part"); Part_42 = Instance.new("Part"); Part_43 = Instance.new("Part"); Part_44 = Instance.new("Part"); Part_45 = Instance.new("Part"); Part_46 = Instance.new("Part"); Folder_1 = Instance.new("Folder")
+
+
+Folder_1.Parent = game.Workspace
+
+Part_1.Anchored = true
+Part_1.BottomSurface = Enum.SurfaceType.Smooth
+Part_1.CFrame = CFrame.new(0, 31.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_1.Size = Vector3.new(14, 1, 21)
+Part_1.TopSurface = Enum.SurfaceType.Smooth
+Part_1.Parent = Folder_1
+
+Part_2.Anchored = true
+Part_2.BottomSurface = Enum.SurfaceType.Smooth
+Part_2.CFrame = CFrame.new(26, 12.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_2.Size = Vector3.new(2, 1, 13)
+Part_2.TopSurface = Enum.SurfaceType.Smooth
+Part_2.Parent = Folder_1
+
+Part_3.Anchored = true
+Part_3.BottomSurface = Enum.SurfaceType.Smooth
+Part_3.CFrame = CFrame.new(8, 30.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_3.Size = Vector3.new(2, 1, 13)
+Part_3.TopSurface = Enum.SurfaceType.Smooth
+Part_3.Parent = Folder_1
+
+Part_4.Anchored = true
+Part_4.BottomSurface = Enum.SurfaceType.Smooth
+Part_4.CFrame = CFrame.new(10, 28.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_4.Size = Vector3.new(2, 1, 13)
+Part_4.TopSurface = Enum.SurfaceType.Smooth
+Part_4.Parent = Folder_1
+
+Part_5.Anchored = true
+Part_5.BottomSurface = Enum.SurfaceType.Smooth
+Part_5.CFrame = CFrame.new(9, 29.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_5.Size = Vector3.new(2, 1, 13)
+Part_5.TopSurface = Enum.SurfaceType.Smooth
+Part_5.Parent = Folder_1
+
+Part_6.Anchored = true
+Part_6.BottomSurface = Enum.SurfaceType.Smooth
+Part_6.CFrame = CFrame.new(14, 24.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_6.Size = Vector3.new(2, 1, 13)
+Part_6.TopSurface = Enum.SurfaceType.Smooth
+Part_6.Parent = Folder_1
+
+Part_7.Anchored = true
+Part_7.BottomSurface = Enum.SurfaceType.Smooth
+Part_7.CFrame = CFrame.new(12, 26.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_7.Size = Vector3.new(2, 1, 13)
+Part_7.TopSurface = Enum.SurfaceType.Smooth
+Part_7.Parent = Folder_1
+
+Part_8.Anchored = true
+Part_8.BottomSurface = Enum.SurfaceType.Smooth
+Part_8.CFrame = CFrame.new(13, 25.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_8.Size = Vector3.new(2, 1, 13)
+Part_8.TopSurface = Enum.SurfaceType.Smooth
+Part_8.Parent = Folder_1
+
+Part_9.Anchored = true
+Part_9.BottomSurface = Enum.SurfaceType.Smooth
+Part_9.CFrame = CFrame.new(11, 27.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_9.Size = Vector3.new(2, 1, 13)
+Part_9.TopSurface = Enum.SurfaceType.Smooth
+Part_9.Parent = Folder_1
+
+Part_10.Anchored = true
+Part_10.BottomSurface = Enum.SurfaceType.Smooth
+Part_10.CFrame = CFrame.new(18, 20.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_10.Size = Vector3.new(2, 1, 13)
+Part_10.TopSurface = Enum.SurfaceType.Smooth
+Part_10.Parent = Folder_1
+
+Part_11.Anchored = true
+Part_11.BottomSurface = Enum.SurfaceType.Smooth
+Part_11.CFrame = CFrame.new(16, 22.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_11.Size = Vector3.new(2, 1, 13)
+Part_11.TopSurface = Enum.SurfaceType.Smooth
+Part_11.Parent = Folder_1
+
+Part_12.Anchored = true
+Part_12.BottomSurface = Enum.SurfaceType.Smooth
+Part_12.CFrame = CFrame.new(21, 17.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_12.Size = Vector3.new(2, 1, 13)
+Part_12.TopSurface = Enum.SurfaceType.Smooth
+Part_12.Parent = Folder_1
+
+Part_13.Anchored = true
+Part_13.BottomSurface = Enum.SurfaceType.Smooth
+Part_13.CFrame = CFrame.new(17, 21.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_13.Size = Vector3.new(2, 1, 13)
+Part_13.TopSurface = Enum.SurfaceType.Smooth
+Part_13.Parent = Folder_1
+
+Part_14.Anchored = true
+Part_14.BottomSurface = Enum.SurfaceType.Smooth
+Part_14.CFrame = CFrame.new(15, 23.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_14.Size = Vector3.new(2, 1, 13)
+Part_14.TopSurface = Enum.SurfaceType.Smooth
+Part_14.Parent = Folder_1
+
+Part_15.Anchored = true
+Part_15.BottomSurface = Enum.SurfaceType.Smooth
+Part_15.CFrame = CFrame.new(19, 19.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_15.Size = Vector3.new(2, 1, 13)
+Part_15.TopSurface = Enum.SurfaceType.Smooth
+Part_15.Parent = Folder_1
+
+Part_16.Anchored = true
+Part_16.BottomSurface = Enum.SurfaceType.Smooth
+Part_16.CFrame = CFrame.new(20, 18.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_16.Size = Vector3.new(2, 1, 13)
+Part_16.TopSurface = Enum.SurfaceType.Smooth
+Part_16.Parent = Folder_1
+
+Part_17.Anchored = true
+Part_17.BottomSurface = Enum.SurfaceType.Smooth
+Part_17.CFrame = CFrame.new(22, 16.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_17.Size = Vector3.new(2, 1, 13)
+Part_17.TopSurface = Enum.SurfaceType.Smooth
+Part_17.Parent = Folder_1
+
+Part_18.Anchored = true
+Part_18.BottomSurface = Enum.SurfaceType.Smooth
+Part_18.CFrame = CFrame.new(24, 14.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_18.Size = Vector3.new(2, 1, 13)
+Part_18.TopSurface = Enum.SurfaceType.Smooth
+Part_18.Parent = Folder_1
+
+Part_19.Anchored = true
+Part_19.BottomSurface = Enum.SurfaceType.Smooth
+Part_19.CFrame = CFrame.new(25, 13.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_19.Size = Vector3.new(2, 1, 13)
+Part_19.TopSurface = Enum.SurfaceType.Smooth
+Part_19.Parent = Folder_1
+
+Part_20.Anchored = true
+Part_20.BottomSurface = Enum.SurfaceType.Smooth
+Part_20.CFrame = CFrame.new(23, 15.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_20.Size = Vector3.new(2, 1, 13)
+Part_20.TopSurface = Enum.SurfaceType.Smooth
+Part_20.Parent = Folder_1
+
+Part_21.Anchored = true
+Part_21.BottomSurface = Enum.SurfaceType.Smooth
+Part_21.CFrame = CFrame.new(6.5, 20.9249992, -10, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_21.Size = Vector3.new(1, 22, 1)
+Part_21.TopSurface = Enum.SurfaceType.Smooth
+Part_21.Parent = Folder_1
+
+Part_22.Anchored = true
+Part_22.BottomSurface = Enum.SurfaceType.Smooth
+Part_22.CFrame = CFrame.new(7, 31.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_22.Size = Vector3.new(2, 1, 13)
+Part_22.TopSurface = Enum.SurfaceType.Smooth
+Part_22.Parent = Folder_1
+
+Part_23.Anchored = true
+Part_23.BottomSurface = Enum.SurfaceType.Smooth
+Part_23.CFrame = CFrame.new(-6.5, 20.9249992, -10, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_23.Size = Vector3.new(1, 22, 1)
+Part_23.TopSurface = Enum.SurfaceType.Smooth
+Part_23.Parent = Folder_1
+
+Part_24.Anchored = true
+Part_24.BottomSurface = Enum.SurfaceType.Smooth
+Part_24.CFrame = CFrame.new(-6.5, 20.9249992, 10, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_24.Size = Vector3.new(1, 22, 1)
+Part_24.TopSurface = Enum.SurfaceType.Smooth
+Part_24.Parent = Folder_1
+
+Part_25.Anchored = true
+Part_25.BottomSurface = Enum.SurfaceType.Smooth
+Part_25.CFrame = CFrame.new(6.5, 20.9249992, 10, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_25.Size = Vector3.new(1, 22, 1)
+Part_25.TopSurface = Enum.SurfaceType.Smooth
+Part_25.Parent = Folder_1
+
+Part_26.Anchored = true
+Part_26.BottomSurface = Enum.SurfaceType.Smooth
+Part_26.CFrame = CFrame.new(40.75, 3.17499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_26.CastShadow = false
+Part_26.Size = Vector3.new(0.5, 11.5, 13)
+Part_26.TopSurface = Enum.SurfaceType.Smooth
+Part_26.Transparency = 1
+Part_26.Parent = Folder_1
+
+Part_27.Anchored = true
+Part_27.BottomSurface = Enum.SurfaceType.Smooth
+Part_27.CFrame = CFrame.new(27, 11.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_27.Size = Vector3.new(2, 1, 13)
+Part_27.TopSurface = Enum.SurfaceType.Smooth
+Part_27.Parent = Folder_1
+
+Part_28.Anchored = true
+Part_28.BottomSurface = Enum.SurfaceType.Smooth
+Part_28.CFrame = CFrame.new(28, 10.4249992, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_28.Size = Vector3.new(2, 1, 13)
+Part_28.TopSurface = Enum.SurfaceType.Smooth
+Part_28.Parent = Folder_1
+
+Part_29.Anchored = true
+Part_29.BottomSurface = Enum.SurfaceType.Smooth
+Part_29.CFrame = CFrame.new(528.5, 9.17499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_29.CastShadow = false
+Part_29.Material = Enum.Material.Marble
+Part_29.Size = Vector3.new(992, 0.5, 2048)
+Part_29.TopSurface = Enum.SurfaceType.Smooth
+Part_29.Parent = Folder_1
+
+Part_30.Anchored = true
+Part_30.BottomSurface = Enum.SurfaceType.Smooth
+Part_30.CFrame = CFrame.new(-497.75, 9.17499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_30.CastShadow = false
+Part_30.Material = Enum.Material.Marble
+Part_30.Size = Vector3.new(1052.5, 0.5, 2048)
+Part_30.TopSurface = Enum.SurfaceType.Smooth
+Part_30.Parent = Folder_1
+
+Part_31.Anchored = true
+Part_31.BottomSurface = Enum.SurfaceType.Smooth
+Part_31.CFrame = CFrame.new(30.5, 9.17499924, -513, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_31.CastShadow = false
+Part_31.Material = Enum.Material.Marble
+Part_31.Size = Vector3.new(4, 0.5, 1022)
+Part_31.TopSurface = Enum.SurfaceType.Smooth
+Part_31.Parent = Folder_1
+
+Part_32.Anchored = true
+Part_32.BottomSurface = Enum.SurfaceType.Smooth
+Part_32.CFrame = CFrame.new(30.5, 9.17499924, 513, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_32.CastShadow = false
+Part_32.Material = Enum.Material.Marble
+Part_32.Size = Vector3.new(4, 0.5, 1022)
+Part_32.TopSurface = Enum.SurfaceType.Smooth
+Part_32.Parent = Folder_1
+
+Part_33.Anchored = true
+Part_33.BottomSurface = Enum.SurfaceType.Smooth
+Part_33.CFrame = CFrame.new(28.75, 3.67499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_33.CastShadow = false
+Part_33.Size = Vector3.new(0.5, 12.5, 13)
+Part_33.TopSurface = Enum.SurfaceType.Smooth
+Part_33.Parent = Folder_1
+
+Part_34.Anchored = true
+Part_34.BottomSurface = Enum.SurfaceType.Smooth
+Part_34.CFrame = CFrame.new(34.75, -2.82500076, 0, -4.37113883e-08, -1, 0, 1, -4.37113883e-08, 0, 0, 0, 0.99999994)
+Part_34.CastShadow = false
+Part_34.Rotation = Vector3.new(0, 0, 90)
+Part_34.Size = Vector3.new(0.5, 12.5, 13)
+Part_34.TopSurface = Enum.SurfaceType.Smooth
+Part_34.Parent = Folder_1
+
+Part_35.Anchored = true
+Part_35.BottomSurface = Enum.SurfaceType.Smooth
+Part_35.CFrame = CFrame.new(35, 3.17499924, -6.25, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
+Part_35.CastShadow = false
+Part_35.Material = Enum.Material.SmoothPlastic
+Part_35.Rotation = Vector3.new(0, -90, 0)
+Part_35.Size = Vector3.new(0.5, 11.5, 12.5)
+Part_35.TopSurface = Enum.SurfaceType.Smooth
+Part_35.Parent = Folder_1
+
+Part_36.Anchored = true
+Part_36.BottomSurface = Enum.SurfaceType.Smooth
+Part_36.CFrame = CFrame.new(35, 3.17499924, 6.25, 1.19248806e-08, 0, -1, 0, 1, 0, 1, 0, 1.19248806e-08)
+Part_36.CastShadow = false
+Part_36.Rotation = Vector3.new(0, -90, 0)
+Part_36.Size = Vector3.new(0.5, 11.5, 12.5)
+Part_36.TopSurface = Enum.SurfaceType.Smooth
+Part_36.Parent = Folder_1
+
+Part_37.Anchored = true
+Part_37.BottomSurface = Enum.SurfaceType.Smooth
+Part_37.CFrame = CFrame.new(29.25, 3.42499924, 1.75, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_37.Size = Vector3.new(0.5, 12.5, 0.5)
+Part_37.TopSurface = Enum.SurfaceType.Smooth
+Part_37.Parent = Folder_1
+
+Part_38.Anchored = true
+Part_38.BottomSurface = Enum.SurfaceType.Smooth
+Part_38.CFrame = CFrame.new(29.25, 3.42499924, -1.75, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_38.Size = Vector3.new(0.5, 12.5, 0.5)
+Part_38.TopSurface = Enum.SurfaceType.Smooth
+Part_38.Parent = Folder_1
+
+Part_39.Anchored = true
+Part_39.BottomSurface = Enum.SurfaceType.Smooth
+Part_39.CFrame = CFrame.new(29.25, -1.07500076, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_39.Size = Vector3.new(0.5, 0.5, 5)
+Part_39.TopSurface = Enum.SurfaceType.Smooth
+Part_39.Parent = Folder_1
+
+Part_40.Anchored = true
+Part_40.BottomSurface = Enum.SurfaceType.Smooth
+Part_40.CFrame = CFrame.new(29.25, -1.07500076, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_40.Size = Vector3.new(0.5, 0.5, 5)
+Part_40.TopSurface = Enum.SurfaceType.Smooth
+Part_40.Parent = Folder_1
+
+Part_41.Anchored = true
+Part_41.BottomSurface = Enum.SurfaceType.Smooth
+Part_41.CFrame = CFrame.new(29.25, 0.924999237, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_41.Size = Vector3.new(0.5, 0.5, 5)
+Part_41.TopSurface = Enum.SurfaceType.Smooth
+Part_41.Parent = Folder_1
+
+Part_42.Anchored = true
+Part_42.BottomSurface = Enum.SurfaceType.Smooth
+Part_42.CFrame = CFrame.new(29.25, 2.92499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_42.Size = Vector3.new(0.5, 0.5, 5)
+Part_42.TopSurface = Enum.SurfaceType.Smooth
+Part_42.Parent = Folder_1
+
+Part_43.Anchored = true
+Part_43.BottomSurface = Enum.SurfaceType.Smooth
+Part_43.CFrame = CFrame.new(29.25, 4.92499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_43.Size = Vector3.new(0.5, 0.5, 5)
+Part_43.TopSurface = Enum.SurfaceType.Smooth
+Part_43.Parent = Folder_1
+
+Part_44.Anchored = true
+Part_44.BottomSurface = Enum.SurfaceType.Smooth
+Part_44.CFrame = CFrame.new(29.25, 6.92499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_44.Size = Vector3.new(0.5, 0.5, 5)
+Part_44.TopSurface = Enum.SurfaceType.Smooth
+Part_44.Parent = Folder_1
+
+Part_45.Anchored = true
+Part_45.BottomSurface = Enum.SurfaceType.Smooth
+Part_45.CFrame = CFrame.new(29.25, 8.92499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_45.Size = Vector3.new(0.5, 0.5, 5)
+Part_45.TopSurface = Enum.SurfaceType.Smooth
+Part_45.Parent = Folder_1
+
+Part_46.Anchored = true
+Part_46.BottomSurface = Enum.SurfaceType.Smooth
+Part_46.CFrame = CFrame.new(29.25, 8.92499924, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part_46.Size = Vector3.new(0.5, 0.5, 5)
+Part_46.TopSurface = Enum.SurfaceType.Smooth
+Part_46.Parent = Folder_1
+game.Workspace.Baseplate:Destroy()
+
+Folder_1.Name = "cool zone"
