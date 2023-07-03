@@ -64,14 +64,14 @@ function voidplate(x,z)
 	part5.Anchored = true
 	part5.CanCollide = true
 	part5.Locked = false
-	local part_69 = Instance.new('Part', game.Workspace)
+	local Part_69 = Instance.new('Part', game.Workspace)
 	Part_69.Anchored = true
 	Part_69.BottomSurface = Enum.SurfaceType.Smooth
 	Part_69.CFrame = CFrame.new(8.5, -69387.5078, -29.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 	Part_69.Size = Vector3.new(1, 9, 1)
 	Part_69.TopSurface = Enum.SurfaceType.Smooth
 	Part_69.Name = "L"
-	local part420 = Instance.new('Part', game.Workspace)
+	local Part_420 = Instance.new('Part', game.Workspace)
 	Part_420.Anchored = true
 	Part_420.BottomSurface = Enum.SurfaceType.Smooth
 	Part_420.CFrame = CFrame.new(11, -69391.5078, -29.5, 1.19248806e-08, 1, 0, -1, 1.19248806e-08, 0, 0, 0, 1)
