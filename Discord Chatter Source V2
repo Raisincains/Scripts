@@ -60,7 +60,7 @@ TextBox.TextSize = 14.000
 		if enterpressed then
 			local response = request(
     {
-        Url = webhook,
+        Url = wbhook,
         Method = 'POST',
         Headers = {
             ['Content-Type'] = 'application/json'
