@@ -58,7 +58,7 @@ TextBox.TextSize = 14.000
 	
 	part.FocusLost:Connect(function(enterpressed)
 		if enterpressed then
-			local response = syn.request(
+			local response = request(
     {
         Url = webhook,
         Method = 'POST',
