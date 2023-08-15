@@ -1,0 +1,112 @@
+--half the code is skidded from https://github.com/robodmanx/cart-ride-around-used-car-battery-hax-improved/blob/main/hax.lua i just made a worse gui
+
+--locals
+local Players = game:GetService("Players")
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Stop = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local Back = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local Foward = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local Light = Instance.new("ImageButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--gui
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+Frame.Size = UDim2.new(0, 195, 0, 45)
+
+Stop.Name = "Stop"
+Stop.Parent = Frame
+Stop.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Stop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Stop.BorderSizePixel = 0
+Stop.Size = UDim2.new(0, 45, 0, 45)
+Stop.Image = "rbxassetid://6088870956"
+
+UICorner.Parent = Stop
+
+Back.Name = "Back"
+Back.Parent = Frame
+Back.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Back.BorderSizePixel = 0
+Back.Position = UDim2.new(0, 50, 0, 0)
+Back.Rotation = 90.000
+Back.Size = UDim2.new(0, 45, 0, 45)
+Back.Image = "http://www.roblox.com/asset/?id=6727171540"
+
+UICorner_2.Parent = Back
+
+Foward.Name = "Foward"
+Foward.Parent = Frame
+Foward.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Foward.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Foward.BorderSizePixel = 0
+Foward.Position = UDim2.new(0, 100, 0, 0)
+Foward.Rotation = 270.000
+Foward.Size = UDim2.new(0, 45, 0, 45)
+Foward.Image = "http://www.roblox.com/asset/?id=6727171540"
+
+UICorner_3.Parent = Foward
+
+Light.Name = "Light"
+Light.Parent = Frame
+Light.BackgroundColor3 = Color3.fromRGB(255, 255, 20)
+Light.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Light.BorderSizePixel = 0
+Light.Position = UDim2.new(0, 150, 0, 0)
+Light.Size = UDim2.new(0, 45, 0, 45)
+Light.Image = "http://www.roblox.com/asset/?id=1090408048"
+
+UICorner_4.Parent = Light
+
+--code
+function xAllCarts(name)
+    for i, v in pairs(workspace:GetChildren()) do
+        if v.Name:sub(-4,-1) == 'Cart' then
+            if v:FindFirstChild(name) then 
+                pcall(function() fireclickdetector(v[name].ClickDetector) end)
+            end
+        end
+	end
+end
+
+function forwardAllCarts()
+	xAllCarts('forward')
+end
+
+function backwardAllCarts()
+	xAllCarts('backward')
+end
+
+function stopAllCarts()
+	xAllCarts('stop')
+end
+
+function lightAllCarts()
+	xAllCarts('lightbutton')
+end
+
+Stop.MouseButton1Click:Connect(function()
+    stopAllCarts()
+end)
+
+Light.MouseButton1Click:Connect(function()
+    lightAllCarts()
+end)
+
+Foward.MouseButton1Click:Connect(function()
+    forwardAllCarts()
+end)
+
+Back.MouseButton1Click:Connect(function()
+    backwardAllCarts()
+end)
