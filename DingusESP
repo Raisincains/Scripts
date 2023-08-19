@@ -1,0 +1,47 @@
+function espa()
+    local highlight = Instance.new("Highlight")
+    for _, v in pairs(game.Players:GetPlayers()) do
+        local Chams = Instance.new("Highlight")
+		local Namething = Instance.new("TextLabel")
+		local StrokemeUWU = Instance.new("UIStroke")
+		local Bilbordhehe = Instance.new("BillboardGui")
+		
+		Chams.FillColor = Color3.new(0, 0, 0)
+		Chams.FillTransparency = 0.8
+		Chams.OutlineColor = Color3.new(0, 0, 0)
+		Chams.Parent = v.Character
+
+		Bilbordhehe.Parent = v.Character
+		Bilbordhehe.Active = true
+		Bilbordhehe.ClipsDescendants = true
+		Bilbordhehe.LightInfluence = 1
+		Bilbordhehe.Size = UDim2.new(20, 0, 2, 0)
+		Bilbordhehe.StudsOffset = Vector3.new(0, 1, 0)
+		Bilbordhehe.StudsOffsetWorldSpace = Vector3.new(0, 2, 0)
+		Bilbordhehe.ResetOnSpawn = false
+		Bilbordhehe.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		Bilbordhehe.AlwaysOnTop = true
+		
+		Namething.FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+		Namething.TextColor3 = Color3.new(1, 1, 1)
+		Namething.TextSize = 14
+		Namething.BackgroundColor3 = Color3.new(1, 1, 1)
+		Namething.BackgroundTransparency = 1
+		Namething.BorderColor3 = Color3.new(0, 0, 0)
+		Namething.BorderSizePixel = 0
+		Namething.Size = UDim2.new(1, 0, 1, 0)
+		Namething.Parent = Bilbordhehe
+		Namething.Text = v.Character.Name
+		
+		StrokemeUWU.Parent = Namething
+		StrokemeUWU.Thickness = 2
+		
+    end
+end
+
+while true do
+espa()
+task.wait(5)
+end
+
+--it wroks in dingus but i like how the esp looked in it so i jsut remade it
