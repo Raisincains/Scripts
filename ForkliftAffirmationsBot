@@ -1,0 +1,81 @@
+ local statements = {
+    "You're on the path to forklift success!",
+    "Keep those safety protocols in mind!",
+    "Confidence is your key to certification!",
+    "You've got the skills, now prove it!",
+    "Forklift mastery is within your reach!",
+    "Stay focused and ace that test!",
+    "Safety first, certification second!",
+    "You're a forklift pro in the making!",
+    "Show them what you're made of!",
+    "Don't let nerves slow you down!",
+    "Success is just around the corner!",
+    "You've prepared, now execute!",
+    "Stay calm under pressure!",
+    "Remember your training!",
+    "You're a certified forklift operator in the making!",
+    "Believe in your abilities!",
+    "Confidence breeds certification!",
+    "You've got this, no doubt!",
+    "Every question is an opportunity!",
+    "Show that forklift who's boss!",
+    "Keep those safety guidelines close!",
+    "Trust your instincts!",
+    "Precision is your middle name!",
+    "Prove your forklift prowess!",
+    "Don't let doubt creep in!",
+    "You're one step closer to certification!",
+    "Your training is your advantage!",
+    "Stay sharp and stay certified!",
+    "Safety is your guiding star!",
+    "You're mastering the forklift art!",
+    "Don't hesitate, demonstrate!",
+    "Confidence is the key to certification!",
+    "Precision and skill lead to success!",
+    "Your hard work will pay off!",
+    "The certification finish line is in sight!",
+    "Keep that forklift under control!",
+    "You're on the road to certification glory!",
+    "Embrace the challenge!",
+    "Safety is your best ally!",
+    "Certification is your goal, don't falter!",
+    "Trust in your forklift expertise!",
+    "Stay focused, stay certified!",
+    "You're certified material!",
+    "Perfection is your aim!",
+    "Don't back down, stand tall!",
+    "Prove your forklift mettle!",
+    "Certification is within your grasp!",
+    "Confidence in every move!",
+    "Safety is your second nature!",
+    "You're destined for forklift greatness!",
+}
+
+
+function chat(str)-- new
+    game.TextChatService.TextChannels.RBXGeneral:SendAsync(str, all)
+end
+
+
+game.Players.PlayerAdded:Connect(function(fans)
+	fans.Chatted:Connect(function(msg)
+		if msg  == "report" or "exploiter" or "hack" or "hacker" or "bot" or "exploit" then
+        wait(2)
+        game.TextChatService.TextChannels.RBXGeneral:SendAsync("I am not a b0t or cheater, Please do not report me!", all)
+		end 
+	end) 
+end)
+workspace.FallenPartsDestroyHeight = "nan"
+print("no void too ;)")
+print("not a bot on")
+
+function startEncouragingMessages()
+    while true do
+        local randomIndex = math.random(1, #statements)
+        local statement = statements[randomIndex]
+        chat(statement)
+        wait(15)
+    end
+end
+
+startEncouragingMessages()
