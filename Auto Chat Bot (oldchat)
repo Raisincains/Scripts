@@ -6,7 +6,7 @@ local statements = {
 }
 
 
-function chat(str)-- new
+function chat(str)-- old
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(str,"All")
 end
 
