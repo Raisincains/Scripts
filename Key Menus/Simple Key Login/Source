@@ -152,10 +152,11 @@ function keyGui:Create(Key, callback)
 			pcall(callback)
 			wait(1)
 			FrameA.Visible = false
+			--put script like here
 		else
 			print("Incorrect Key")
 			wait(1)
-			FrameA.Visible = false
+			GUI:Destroy()
 		
 		end
 	end)
